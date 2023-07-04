@@ -90,3 +90,51 @@ main article.cert .information h1 {
     margin-bottom: 1rem;
     font-size: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+    img.profile {
+        width: 10rem;
+        height: 10rem;
+        bottom: -9vh;
+    }
+
+    header article.about {
+        bottom: -11vh;
+    }
+
+    header article.about h1 {
+        font-size: 2rem;
+        margin-bottom: 0rem;
+    }
+    
+    header article.about h2 {
+        color: #545454;
+        margin-bottom: .1rem;
+    }
+    
+    header article.about p {
+        margin-bottom: .25rem
+    }
+
+    main {
+        padding: 1rem 1rem;
+    }
+
+    main article.cert {
+        height: 12vh;
+    }
+    
+    main article.cert img {
+        width: 10vh;
+        margin-right: 1rem;
+    }
+
+    main article.cert .information h1 {
+        font-size: 1rem;
+    }
+
+    main article.cert .information p {
+        font-size: .8rem;
+        font-weight: 300;
+    }
+}
